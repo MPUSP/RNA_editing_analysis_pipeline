@@ -29,7 +29,7 @@ fi
 virtualenv -p python$PYTHON_VERSION venv
 
 # Install required packages using pip
-venv/bin/pip install biopython==1.79 cycler==0.11.0 Cython==3.0.0 dnaio==0.8.1 fonttools==4.32.0 isal==0.11.1 kiwisolver==1.4.2 matplotlib==3.5.1 numpy==1.21.6 packaging==21.3 Pillow==9.1.0 pyparsing==3.0.8 python-dateutil==2.8.2 setuptools==41.2.0 six==1.16.0 typing-extensions==4.2.0 xopen==1.5.0 
+venv/bin/pip install biopython==1.79 cycler==0.11.0 Cython==3.0.0 dnaio==0.8.1 fonttools==4.32.0 isal==0.11.1 kiwisolver==1.4.2 matplotlib numpy packaging==21.3 Pillow==9.1.0 pyparsing==3.0.8 python-dateutil==2.8.2 setuptools==41.2.0 six==1.16.0 typing-extensions==4.2.0 xopen==1.5.0 
 venv/bin/pip install pysam==0.21.0
 
 # Function to prompt the user with path completion support
@@ -39,7 +39,7 @@ prompt_with_completion() {
 
     while true; do
         # Read user input with readline's -e option to enable path completion
-        read -e -p "$prompt_message" -i "$user_input" user_input 
+        read -e -p "$prompt_message" user_input 
 
         # If the user input is empty, prompt again
         if [ -z "$user_input" ]; then
