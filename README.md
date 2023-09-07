@@ -18,7 +18,7 @@ You assume full responsibility and risk for the use of "RNA_editing_analysis_pip
 
 By using "RNA_editing_analysis_pipeline", you acknowledge and agree to this disclaimer. If you do not agree to these terms, you should refrain from using the software.
 
-Last updated: 2023-07-25
+Last updated: 2023-09-07
 
 ## Copyright:
 Code has been created by Knut Finstermeier, Max Planck Unit for the Science of Pathogens, Berlin, Germany, member of the Max Planck Society, https://www.mpg.de/en. The code is licensed under the MIT license (see LICENSE file).
@@ -28,7 +28,6 @@ Version 6.0, 1.8.2023
 
 ## Pre-requisites (versions are suggestions and others may work):
 - Python 3.9 (https://www.python.org/downloads/release/python-390/)
-- ViennaRNA 2.4.2 (https://www.tbi.univie.ac.at/RNA/)
 - UMI-tools 1.1.0 (https://github.com/CGATOxford/UMI-tools)
 - STAR aligner 2.6.1d (https://github.com/alexdobin/STAR)
 - BWA aligner 0.7.17 (https://github.com/lh3/bwa)
