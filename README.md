@@ -28,6 +28,7 @@ Version 6.0, 1.8.2023
 
 ## Pre-requisites (versions are suggestions and others may work):
 - Python 3.9 (https://www.python.org/downloads/release/python-390/)
+- incompatible with Python 3.11 due to libffi-dev being required by pysam and cPython
 - UMI-tools 1.1.0 (https://github.com/CGATOxford/UMI-tools)
 - STAR aligner 2.6.1d (https://github.com/alexdobin/STAR)
 - BWA aligner 0.7.17 (https://github.com/lh3/bwa)
