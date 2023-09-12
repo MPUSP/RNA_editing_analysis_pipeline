@@ -1,4 +1,7 @@
-# RNA editing analysis pipeline for SE and PE NGS data
+# RNA editing analysis pipeline for SE and PE NGS data 
+
+[![DOI](https://zenodo.org/badge/669123079.svg)](https://zenodo.org/badge/latestdoi/669123079)
+
 RNA editing pipeline / code for publication Wulff et al.
 Please cite the following publication when using this pipeline:<br>
 
