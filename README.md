@@ -4,6 +4,8 @@
 
 RNA editing pipeline / code for publication Wulff et al.
 Please cite the following publication when using this pipeline:<br>
+Wulff, T.F., Hahnke, K., Lécrivain, A.L., Schmidt, K., Ahmed-Begrich, R., Finstermeier, K. and Charpentier, E., 2024. Dynamics of diversified A-to-I editing in Streptococcus pyogenes is governed by changes in mRNA stability. <i>Nucleic Acids Research</i>, 52(18), pp.11234-11253.<br>
+https://doi.org/10.1093/nar/gkae629
 
 ## Description:
 This pipeline is designed to analyse RNA editing in paired-end sequencing data and it is designed to work with DNA and RNA sequencing data from the same sample (paired DNA and RNA data). Paired-end sequencing data for input is recommended, but is optional and the pipeline can run with forward data only and with mixed datasets.
